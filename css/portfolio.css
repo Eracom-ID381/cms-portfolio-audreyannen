@@ -41,8 +41,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+    color: #848484;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
