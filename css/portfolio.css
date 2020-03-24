@@ -6,7 +6,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: white;
+    color: #fff;
     text-align: left;
     background-color: black;
 }
@@ -31,13 +31,13 @@ h1, h2, h3, h4, h5, h6,
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: #848484;
+    background: #FD151B;
     transition: opacity 0.25s ease;
     text-align: center;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: #848484;
+    color: #FD151B;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -45,31 +45,35 @@ h1, h2, h3, h4, h5, h6,
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-    color: #848484;
+    color: #40BCD8;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: #848484;
+    color: #40BCD8;
 }
 
 #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #848484;
+    color: #40BCD8;
 }
 
 #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #848484;
+    color: #40BCD8;
 }
 
 hr.divider {
     max-width: 3.25rem;
     border-width: 0.2rem;
-    border-color: #848484;
+    border-color: #FD151B;
 }
 
 a {
-    color: #848484;
+    color: #40BCD8;
     text-decoration: none;
     background-color: transparent;
+}
+
+#mainNav .navbar-brand:hover {
+    color: #40BCD8;
 }
 
 header.masthead {
